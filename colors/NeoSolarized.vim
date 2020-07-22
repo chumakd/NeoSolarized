@@ -510,7 +510,7 @@ else " normal
     exe "hi! DiffText"       .s:fmt_bold   .s:fg_blue   .s:bg_base02 .s:sp_blue
 endif
 
-exe "hi! SignColumn"     .s:fmt_none   .s:fg_base0  .s:bg_none
+exe "hi! SignColumn"     .s:fmt_none   .s:fg_base0  .s:bg_base02
 exe "hi! Conceal"        .s:fmt_none   .s:fg_blue   .s:bg_none
 if !has("gui_running")
 exe "hi! SpellBad"       .s:fmt_curl   .s:fg_none   .s:bg_red     .s:sp_red
